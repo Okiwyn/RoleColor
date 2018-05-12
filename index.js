@@ -193,7 +193,7 @@ client.on("message", async message =>{
             const embed = new Discord.RichEmbed()
             .setAuthor("Rainbow", client.user.avatarURL)
             .setColor(0xF44336)
-            .setDescription("My **RoleColor** role must be higher than the mentioned role!")
+            .setDescription("My **RainColor** role must be higher than the mentioned role!")
             message.channel.send({embed});
             return;
         }
