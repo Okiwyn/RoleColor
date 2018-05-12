@@ -260,4 +260,4 @@ String.prototype.toHHMMSS = function () {
 }
 
 //login with this shitty code
-client.login(procces_env.TOKEN);
+client.login(process_env.TOKEN);
